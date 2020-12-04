@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.62rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+hr {
+  height: 0;
+  width: 50px;
+  border-style: dotted none none none;
+  border-width: 7px;
+  border-color: grey;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17.6px;
+}
+
+a {
+  color: #11999e;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #cef7ef;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 500px;
+}
+
+.img {
+  border-radius: 160px;
+  height: 230px;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+  font-size: 19px;
+}
+
+.hobby {
+  margin: 100px auto 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.games {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+#music {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact {
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.credits {
+  color: #eaf6f6;
+  padding-top: 20px;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.myButton {
+  box-shadow: 8px 9px 31px -10px #107391;
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #11cdd4;
+  border-radius: 13px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #52a0c4;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+  background-color: #11999e;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.skillz{
+  background-color: #d9f1eb;
+  padding: 20px 0;
+}
+.progress {
+  display: -ms-flexbox;
+  /* padding: 10px 10px ; */
+  padding-left: 0;
+  display: flex;
+  height: 1.35rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width 0.6s ease;
+} 
+
+/* .bg-red-300{background-color: #FB8085 ;} */
+.bg-red-300{background-color: #0077b6;}
+
+.skill-text{
+  display: flex;
+  padding:  10px 0;
+} 
+.skill-name{
+  width: 500px;
+  text-align: left;
+  margin-left: 500px;
+  line-height: 0.5;
+  padding-bottom:15px ;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.todolist{
+  width: 16%;
+  float: left;
+  margin-right: 30px;
+}
+
+.keeperapp{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.viewproject{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0;
+  /* text-decoration: underline; */
+  cursor: pointer;
+
+}   
+ .viewproject:hover{
+  color: #3393b1;
+  text-shadow: 1px 1px 2px rgb(51, 206, 211); 
+}
+.skillz1{
+  background-color: #e5faf5;
+  padding: 20px 0;
+} 
+
+
+ 
+/* @media only screen and (max-width: 500px){
+  .top-cloud{
+    height:100px;
+  }
+
+  h1{
+    margin: 136px auto 0 auto;
+  }
+
+  .bottom-cloud{
+    left:684px;
+    bottom: 313px;
+    height:79px;
+  }
+
+  .mountain-img{
+    height: 400px;;
+  }
+}
+*/
